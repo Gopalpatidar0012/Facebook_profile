@@ -1,0 +1,204 @@
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+max-width: 1600px;
+min-width: auto;
+}
+
+body{
+    background-color: rgb(133, 246, 250) !important;
+   
+}
+  
+.header{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+}
+
+.icons a{
+    margin-left: 8px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgb(16, 6, 17)
+    /* text-transform: uppercase; */
+}
+
+.icons a::before{
+    content: ">";
+    margin-right: 10px;
+}
+
+.second-header{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+
+    
+   
+   
+  
+}
+.second-header img{
+   
+width: 100%;
+height: 300px;
+border-radius: 10px;
+/* margin-left: 5px; */
+
+}
+
+.avtar img{
+    width: 150px;
+    height: 150px;
+    margin-left: 200px;
+
+}
+
+.profile{
+    display: flex;
+    position: relative;
+    top:-45px;
+   
+  
+    
+}
+.avtar-data{
+    margin-left: 10px;
+    justify-content: center;
+}
+   
+
+
+ .profile-right{
+     display: flex;
+    margin-top: 80px;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 100%;
+} 
+.profile-right-top{
+    display: flex;
+  width: 100%;
+     justify-content: space-between;
+}
+.button{
+    justify-content: flex-end;
+    
+    /* min-width:25%; */
+}
+.button i{
+    margin-right: 10px;
+}
+
+.nav-data{
+    display: flex;
+    justify-content: center;
+    /* margin-right: 120px; */
+    margin-bottom: 10px;
+    margin-top: -40px;
+
+}
+/* .nav-data a{ */
+    /* justify-content: flex-end; */
+    /* color: lightgray;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase; */
+    /* margin-left: 30px;
+    display: flex;
+    justify-content: center;
+  } */
+
+  .nav-data a{
+        margin-left: 120px;
+        color: rgb(121, 119, 123);
+        text-transform: uppercase;
+        text-decoration: none;
+        margin-left: 80 px;
+
+  }
+  .nav-data a i{
+      margin-right: 10px;
+  }
+  .nav-data a .c-badge{
+      color: rgb(102, 25, 125);
+      background-color: rgb(237, 117, 241);
+      border-radius: 20px;
+      margin-left: 10px;
+      padding:0px 1px;
+      
+  }
+  .btn{
+      margin-left: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Style1 code\ */
+
+
+  .overlay{
+    /* background-color: rgb(214, 69, 69); */
+    width: 354px;
+    height: 354px;
+    position: absolute;
+    top:186px;  
+    
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #464a4c;
+    /* display: none; */
+    
+}
+.overlay:hover{
+    background: rgba(8, 8, 8, 0.6);
+    opacity: 1.0;
+    
+}
+
+
+.container{
+    
+}
+
+
+
+/* copy */
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+
+  .container:hover .overlay {
+    opacity: 1;
+  }
+
+  /* .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  } */
